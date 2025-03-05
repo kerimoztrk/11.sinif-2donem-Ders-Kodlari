@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,77 @@ namespace _2Donem11A
 {
     internal class Program
     {
+
+
+        class Savasci: Kahramann
+        {
+            public Savasci(string ad):base(ad) { }
+
+            public override void Saldir()
+            {
+                Console.WriteLine($"{Ad} , kılıç salladı");
+            }
+        }
+
+
+        class Buyucu : Kahramann
+        {
+            public Buyucu(string ad) : base(ad) { }
+
+            public new void Saldir()
+            {
+                Console.WriteLine($"{Ad} , büyü yaptı !!!!!");
+            }
+        }
+        class Yazilimci : Calisan
+        {
+            public override void Calis()
+            {
+                Console.WriteLine("Yazılımcı kod yazıyor");
+
+            }
+        }
+
+        class Muhendis : Calisan {
+            public override void Calis()
+            {
+                Console.WriteLine("Mühendis proje çiziyor.");
+
+            }
+        }
+
+        class Telefon3
+        {
+            public void AramaYap()
+            {
+                Console.WriteLine("Numara Aranıyor.");
+            }
+        }
+
+        class AkilliTelefon:Telefon3
+        {
+            public new void AramaYap()
+            {
+                Console.WriteLine("Whatsapp araması yapılıyor.");
+            }
+        }
+
+
+        class Kedi : Hayvan
+        {
+            public void Miyavla()
+            {
+                Console.WriteLine("Miyav!");
+            }
+        }
+
+        class Kopek : Hayvan
+        {
+            public void Havla()
+            {
+                Console.WriteLine("Hav Hav!");
+            }
+        }
 
 
         //class SinifAdi
@@ -25,6 +97,36 @@ namespace _2Donem11A
         //    Console.WriteLine(bilgi);
         //}
 
+        //class Telefon
+        //{
+        //    public string marka;
+        //    public int pilSeviyesi;
+
+        //    public Telefon (string markAdi)
+        //    {
+        //        marka = markAdi;
+        //        pilSeviyesi = 100; //varsayılan şarj seviyesi
+        //        Console.WriteLine($"{marka} telefonu açıldı. Pil {pilSeviyesi}%");
+        //    }
+        //}
+
+
+
+        class Telefon2
+        {
+            public string marka;
+            public Telefon2(string markAdi)
+            {
+                marka = markAdi;
+                Console.WriteLine($"{marka} telefonu açıldı.");
+            }
+
+            ~Telefon2()
+            {
+                Console.WriteLine($"{marka} kapatıldı, hadıaz temizlendi");
+                ;
+            }
+        }
 
         class Sinifim
         {
@@ -180,16 +282,127 @@ namespace _2Donem11A
             //s.Selamla("ishak");
             #endregion
 
+            #region Yapıcı yıkıcı metotlar 
+
+            //YAPICI ve yıkıcı METODLAR (constructor & destructor
+
+            // Bir nesne oluşturduğumuzda bazı ayarları baştan yapmak isteriz. İşte yapıcı metotlar (constructorss bu işe yarar. Nesne kullanılmaz hale geldiğinde temizlenmesi gerekirse de yıkıcı metotlar ( destructor devreye girer.
 
 
 
+            //yapıcı metotlar ( Constructors)
 
-            //YAPICI METODLAR
+            //Telefon t1 = new Telefon("Samsung");
+            //Telefon t2 = new Telefon("Xiaomi");
+
+
+            //Telefon2 t1 = new Telefon2("Iphone");
+            #endregion
+
+            #region Değer ve Referans Tipler
+
+
+            // referans kullanımı
+
+            //void Degistir (ref int sayi)
+            //{
+            //    sayi += 10;
+
+            //}
+
+            //int x = 5;
+            //Console.WriteLine(x);
+            //Degistir(ref x);
+            //Console.WriteLine(x);
+
+
+            //void Hesapla(out int sonuc)
+            //{
+            //    sonuc = 100;
+            //}
+
+            //int notDegeri;
+
+            //Hesapla(out notDegeri);
+            //Console.WriteLine(notDegeri);
+
+
+            //KONU ÖRNEĞİ
+
+            ////savaşçının oluşturulduğu bölüm
+
+            //Savasci savasci1 = new Savasci("Spider-man");
+
+            ////gücünü artırma örneği referan kullanımıyla
+            //savasci1.GucArtır(ref savasci1.Guc);
+
+            ////canını öğrendiğimiz yer out kullanımı
+
+            //int SimdikiCami;
+            //savasci1.SaglikDurumu(out SimdikiCami);
+            //Console.WriteLine($"{savasci1.Ad} şuanda  {SimdikiCami} ana  sahip");
+
+            //savasci1.HasarAlma(30);
+            //savasci1.HasarAlma(80);
+
+            #endregion
+
+            #region KALITIM (İNHERİTENCE)
 
 
 
+            //Kedi kedi1= new Kedi();
+            //kedi1.Ad = "Boncuk";
+            //kedi1.SesCikar();
+            //kedi1.Miyavla();
+
+            //Kopek kopek1=new Kopek();
+            //kopek1.Ad = "karabaş";
+            //kopek1.SesCikar();
+            //kopek1.Havla();
 
 
+
+            // HİYERARŞİK KALITIM ( HİERARCHİCAL INHERİTANCE)
+
+            //Araba2 araba1 =new Araba2();
+            //araba1.HareketEt();
+            //araba1.camAc();
+
+            //Motosiklet motor1= new Motosiklet();
+            //motor1.HareketEt();
+            //motor1.TekTekerSur();
+
+
+            //new operatörüyle metot gölgeleme(shadowing)
+
+            //Telefon3 eskiTelefon= new Telefon3();
+            //eskiTelefon.AramaYap();
+
+            //AkilliTelefon yeniTelefon = new AkilliTelefon();
+            //yeniTelefon.AramaYap();
+
+            //Telefon3 telefon = new AkilliTelefon();
+            //telefon.AramaYap();
+
+
+            //Calisan calisan1= new Yazilimci();
+            //calisan1.Calis();
+            //Calisan calisan2 = new Muhendis();
+            //calisan2.Calis();
+
+
+            Kahramann kahraman1 = new Savasci("Master Yi");
+            Kahramann kahraman2 = new Buyucu("Lux");
+
+            kahraman1.Saldir();
+            kahraman2.Saldir();
+
+            Buyucu buyucuKahraman = new Buyucu("Jinx");
+            buyucuKahraman.Saldir();
+
+
+            #endregion
             Console.ReadLine();
 
         }

@@ -44,10 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Araba.cs" />
+    <Compile Include="Araba2.cs" />
+    <Compile Include="Arac.cs" />
+    <Compile Include="Calisan.cs" />
     <Compile Include="Dikdortgen.cs" />
+    <Compile Include="Hayvan.cs" />
     <Compile Include="Kahraman.cs" />
+    <Compile Include="Kahramann.cs" />
+    <Compile Include="Motosiklet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Savasci.cs" />
     <Compile Include="SayiBulucu.cs" />
     <Compile Include="Ucgen.cs" />
   </ItemGroup>
