@@ -1,7 +1,0 @@
-C:\Users\Kerim\source\repos\2Donem11A\2Donem11A\obj\Debug\2Donem11A.csproj.AssemblyReference.cache
-C:\Users\Kerim\source\repos\2Donem11A\2Donem11A\obj\Debug\2Donem11A.csproj.CoreCompileInputs.cache
-C:\Users\Kerim\source\repos\2Donem11A\2Donem11A\bin\Debug\2Donem11A.exe.config
-C:\Users\Kerim\source\repos\2Donem11A\2Donem11A\bin\Debug\2Donem11A.exe
-C:\Users\Kerim\source\repos\2Donem11A\2Donem11A\bin\Debug\2Donem11A.pdb
-C:\Users\Kerim\source\repos\2Donem11A\2Donem11A\obj\Debug\2Donem11A.exe
-C:\Users\Kerim\source\repos\2Donem11A\2Donem11A\obj\Debug\2Donem11A.pdb
