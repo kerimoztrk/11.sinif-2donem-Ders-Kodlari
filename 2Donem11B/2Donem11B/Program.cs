@@ -381,7 +381,7 @@ namespace _2Donem11B
             #region YAPICI VE YIKICI METOTLAR (Constructors) and (Destructors)
 
             //Sııflar çalışırken, bir nesne oluşturdugumuzda bazı ayarları baştan yapmak isteriz.
-            //yapıcı metotlar (consructor) bu iğşe yarar.
+            //yapıcı metotlar (consructor) bu işe yarar.
 
             //Nesne kullanılmaz hale geldiğinde temizlenmesi gerekirse de yıkıcı metotlar( destructor) devreyer girer.
 
@@ -557,8 +557,298 @@ namespace _2Donem11B
             //Enum yapısı sabit değerleri gruplamak için kullanılır. Daha okunaklı ve yönetilebilir kod yazmayı sağlar.
 
 
-            Gunler bugun = Gunler.Çarsamba;
-            Console.WriteLine($"Bugun Günlerden {bugun}");
+            //Gunler bugun = Gunler.Çarsamba;
+            //Console.WriteLine($"Bugun Günlerden {bugun}");
+
+            #endregion
+
+
+            #region Diziler ( Arrays) ve koleksiyonlar ( Collections)
+
+            // diziler aynı veri tipinde birden fazla değeri saklamak için kullanılan ver iyapılarıdı.
+
+            //Bir Boyutlu Diziler
+
+
+            int[] sayilar = new int[5];  // Buradaki örnek 5 elemanlı bir tamsayı(int) dizisi oluşturmuştur.
+
+
+            //Bir boyutlu dizi oluşturma
+
+            int[] sayilar1 = new int[3];
+
+            int[] sayilar2 = { 10, 20, 30 };  // Burdaki kullaımda dizinin elemanları tanımlanırken belirlenmiştir.
+
+            int[] sayilar3 = new int[] { 20, 30, 59, 600 };
+
+
+            //Bir boyutlu dizilere değer aktarma
+
+            sayilar1[0] = 15;
+            sayilar1[1] = 10;
+            sayilar1[2] = 20;
+
+
+            //Bir boyutlu dizi elemanlarına erişim
+
+            //Console.WriteLine(sayilar1[0]);
+            //Console.WriteLine(sayilar1[1]);
+            //Console.WriteLine(sayilar1[2]);
+
+
+
+            //for (int i= 0; i< sayilar2.Length; i++)
+            //{
+            //    Console.WriteLine(sayilar2[i]);
+            //}
+
+
+            //int[] notlar = { 60, 70, 80, 90, 100 };
+
+            //int toplam = 0;
+
+            //for (int i = 0; i < notlar.Length; i++)
+            //{
+            //    Console.WriteLine($"{i+1}. öğrencinin notu: {notlar[i]}");
+            //    toplam = toplam+ notlar[i];
+            //}
+
+
+            //int ortalama= toplam /notlar.Length;
+            //Console.WriteLine($" Sınıf ortalamsı : {ortalama}");
+
+
+
+            //DİZİLERDE FOREACH DÖNGÜSÜ KULLANIMI
+
+            //dizi elemanlarını sırayla alır ve bir değişkene atayarak işlemler yapmamızı sağlar.
+
+
+            string[] meyveler = { "Elma", "Armut", "Muz", "Kiraz" };
+
+            //foreach (string meyve in meyveler)
+            //{
+            //    Console.WriteLine(meyve);
+            //}
+
+
+            //foreach dongü özellikleri
+
+            // elemanlara tek tek ve sırayla ulaşır.
+            // dizinin boyutunu bilmeye gerek yok
+            // elamannlara sadece okuma işlemi uygulanır, değiştirilmez.
+
+
+            //Length : Dizinin eleman sayısını veri.
+            //Rank : Dizinin boyut sayısını verir ( tek boyutluysa 1 döner)
+
+
+            int[] ogrenciNot = { 222, 23, 7, 59 };
+
+            //Console.WriteLine("elaman sayısı: "+ ogrenciNot.Length);
+            //Console.WriteLine("dizin boyut sayısı: " + ogrenciNot.Rank);
+
+
+            //Array.Sort(dizi) : Diziyi küçükten büyüğe dosğru sıralıyor
+
+            //Array.Reverse(dizi) : Dizi tersine çevrilir.
+
+            // Array.IndexOf(dizi,değer)  : Belirtilen değerin indeksini doner.
+
+            //Array.Clear(dizi,baslangıc,adet) : Belirtilen konumdan başlayarak elemanları sıfırlar.
+
+
+            //int[] dizi = { 7, 2, 9, 1 };
+
+
+
+            //Array.Sort(dizi); // [1,2,7,9}
+
+            //Array.Reverse(dizi); // [0,7,2,1]
+
+            //int index = Array.IndexOf(dizi, 7); // 1
+
+            //Array.Clear(dizi, 1, 2);  // [9,0,0,1]
+
+
+
+            //örnek
+
+
+            ////ürünler
+            //string[] sepet = { "Ekmek", "Süt", "Peynir", "Yumurta", "Çikolata"};
+
+            //Console.WriteLine("Sepetinizdeki ürünler :");
+
+            ////foreach ile ürünleri ekrana yazdırıyorum
+            //foreach (string urun in sepet)
+            //{
+            //    Console.WriteLine("- " + urun);
+            //}
+
+            ////ürünleri alfavetik sıralaıyor
+            //Array.Sort(sepet);
+            //Console.WriteLine(" ");
+            ////sıralanmış elemanları yazdırmak içn aşağıdak ikoldarı yazalım
+
+            //Console.WriteLine("Alfabetik olarak sepetimiz:");
+
+            //foreach(string urun in sepet)
+            //{
+            //    Console.WriteLine("-" + urun);
+            //}
+
+            ////ürün sayısını gösterelim
+
+            //Console.WriteLine(" ");
+            //Console.WriteLine($"Toplam sepetteki ürün sayısı: {sepet.Length}");
+
+
+
+
+
+
+            #endregion
+
+            #region Çok Boyutlu Diziler
+
+
+            // Tanım: Çok boyutlu diziler,satır ve sutun yapısına sahip olan içerisindeki verileri tablo gibi saklayan dizi türleridir.
+
+            //int[,] tablo = new int[3, 2];   // 3 satır , 2 sutün dan oluşan çok boyutlu dizi tanımlama örneği
+
+
+            ////iki boyutlu dizileri tanımlama örneklerimiz
+
+            //int[,] notlar = new int[2, 3]; // 2satır, 3 sütundan oluşan dizi
+
+            ////verileri tanımlama kısmı
+
+            //int[,] matris =
+            //{
+            //    {10,20,30 },
+            //    {40,50,60 }
+            //};
+
+
+
+            ////yöntem 1 tanımlama : Tek tek atama işleme
+            //notlar[0,0] = 85;
+            //notlar[0, 1] = 90;
+            //notlar[1, 0] = 75;
+
+            ////yöntem 2 tanımlama: Tanımlarken değer verme
+
+            //int[,] sinavNotları =
+            //{
+            //    {85,90},
+            //    {75,80}
+            //};
+
+
+            ////İki Boyutlu dizilerin elemanlarına erişim
+            //Console.Write(sinavNotları[0,0]);
+            //Console.Write(",");
+            //Console.WriteLine(sinavNotları[0,1]);
+            //Console.Write(sinavNotları[1,0]);
+            //Console.Write(",");
+            //Console.Write(sinavNotları[1,1]);
+
+
+
+
+
+            //örnek 
+
+
+            //örneğin senaryosu gereği 2 öğrencinin 3 farklı sınav notu olacak dizide saklanacak
+            //notlar tablo gibi görünücek
+            //her öğrencinin ortalamasını hesaplanacak
+
+            int[,] notlar1 =
+            {
+                {80,90,86},
+                {70,50,75}
+            };
+
+            //Console.WriteLine("Öğrenci Not Tablosu:");
+            //Console.WriteLine(" ");
+
+            //for (int i = 0; i < 2; i++) //öğrenciler burada yazdırılır.
+            //{
+
+            //    Console.Write("Öğrenci " + (i + 1) + ": ");
+
+            //    int toplam = 0;
+
+
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write(notlar1[i, j] + " ");
+            //        toplam += notlar1[i, j];
+            //    }
+
+            //    double ortalama = toplam / 3.0;
+            //    Console.WriteLine($" Ortalama= {ortalama:F1}");
+
+
+            //}
+
+
+
+
+            //ÖRnek 2 : Sinemada koltuk rezervasyonu sistemi
+
+            // sinema salonun 3 sıra ve 4 koltuk bulunmaktadır.
+            //Boş koltuklar 'o' dolu koltuklar 'x' şeklinde gösterilsin.
+            // en son kullanıca bilgi verilsin
+
+
+
+            char[,] koltuklar = new char[3, 4];  //3 sıra 4 koltuk mantığıyla 3z4 bir dizi
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    koltuklar[i, j] = 'O';
+                }
+            }
+
+            //bazı koltukları dolduralım
+
+            koltuklar[0, 1] = 'X';
+            koltuklar[1, 2] = 'X';
+            koltuklar[2, 3] = 'X';
+
+
+            Console.WriteLine(" Gop okulları Sinema koltuk Durumu:\n");
+
+
+            for(int i = 0; i < 3; i++)
+            {
+
+                Console.Write("Sıra "+ (i+1)+":  "); //sıra bilgisi
+
+                for (int j = 0; j < 4; j++)
+                {
+                    Console.Write(koltuklar[i,j]+" "); //koltuk durumu o harfiyle veya x harfiyle gösterildi.
+
+                }
+                Console.WriteLine(); // bir alt satıra geçnesini istiyruz.
+
+
+
+
+
+            }
+
+
+            
+
+
+
+
 
             #endregion
 
