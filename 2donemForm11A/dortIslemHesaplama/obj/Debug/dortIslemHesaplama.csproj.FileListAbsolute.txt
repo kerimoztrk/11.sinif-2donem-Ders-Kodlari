@@ -1,0 +1,10 @@
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\bin\Debug\dortIslemHesaplama.exe.config
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\bin\Debug\dortIslemHesaplama.exe
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\bin\Debug\dortIslemHesaplama.pdb
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\obj\Debug\dortIslemHesaplama.csproj.AssemblyReference.cache
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\obj\Debug\dortIslemHesaplama.Form1.resources
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\obj\Debug\dortIslemHesaplama.Properties.Resources.resources
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\obj\Debug\dortIslemHesaplama.csproj.GenerateResource.cache
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\obj\Debug\dortIslemHesaplama.csproj.CoreCompileInputs.cache
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\obj\Debug\dortIslemHesaplama.exe
+C:\Users\Kerim\source\repos\2donemForm11A\dortIslemHesaplama\obj\Debug\dortIslemHesaplama.pdb

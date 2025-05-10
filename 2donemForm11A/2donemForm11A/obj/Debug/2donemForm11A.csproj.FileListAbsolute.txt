@@ -1,0 +1,10 @@
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\bin\Debug\2donemForm11A.exe.config
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\bin\Debug\2donemForm11A.exe
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\bin\Debug\2donemForm11A.pdb
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\obj\Debug\2donemForm11A.csproj.AssemblyReference.cache
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\obj\Debug\_2donemForm11A.Form1.resources
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\obj\Debug\_2donemForm11A.Properties.Resources.resources
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\obj\Debug\2donemForm11A.csproj.GenerateResource.cache
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\obj\Debug\2donemForm11A.csproj.CoreCompileInputs.cache
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\obj\Debug\2donemForm11A.exe
+C:\Users\Kerim\source\repos\2donemForm11A\2donemForm11A\obj\Debug\2donemForm11A.pdb

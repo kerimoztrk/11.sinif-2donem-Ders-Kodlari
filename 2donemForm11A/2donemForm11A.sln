@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2donemForm11A", "2donemForm11A\2donemForm11A.csproj", "{4B1379EB-13AF-47BD-8510-490DD6109B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{419E80C7-C8E0-461C-A457-5EF61321937D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sifreKontrol", "sifreKontrol\sifreKontrol.csproj", "{9B74E320-37B4-489E-87FD-8B954F669750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dortIslemHesaplama", "dortIslemHesaplama\dortIslemHesaplama.csproj", "{57E0C88D-25C7-45AF-8617-1A1D7D4C918B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B1379EB-13AF-47BD-8510-490DD6109B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1379EB-13AF-47BD-8510-490DD6109B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1379EB-13AF-47BD-8510-490DD6109B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1379EB-13AF-47BD-8510-490DD6109B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419E80C7-C8E0-461C-A457-5EF61321937D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419E80C7-C8E0-461C-A457-5EF61321937D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419E80C7-C8E0-461C-A457-5EF61321937D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419E80C7-C8E0-461C-A457-5EF61321937D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B74E320-37B4-489E-87FD-8B954F669750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B74E320-37B4-489E-87FD-8B954F669750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B74E320-37B4-489E-87FD-8B954F669750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B74E320-37B4-489E-87FD-8B954F669750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E0C88D-25C7-45AF-8617-1A1D7D4C918B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E0C88D-25C7-45AF-8617-1A1D7D4C918B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E0C88D-25C7-45AF-8617-1A1D7D4C918B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E0C88D-25C7-45AF-8617-1A1D7D4C918B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

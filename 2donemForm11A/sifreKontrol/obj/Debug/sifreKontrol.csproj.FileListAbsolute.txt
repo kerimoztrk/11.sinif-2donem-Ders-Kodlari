@@ -1,0 +1,10 @@
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\bin\Debug\sifreKontrol.exe.config
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\bin\Debug\sifreKontrol.exe
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\bin\Debug\sifreKontrol.pdb
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\obj\Debug\sifreKontrol.csproj.AssemblyReference.cache
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\obj\Debug\sifreKontrol.Form1.resources
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\obj\Debug\sifreKontrol.Properties.Resources.resources
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\obj\Debug\sifreKontrol.csproj.GenerateResource.cache
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\obj\Debug\sifreKontrol.csproj.CoreCompileInputs.cache
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\obj\Debug\sifreKontrol.exe
+C:\Users\Kerim\source\repos\2donemForm11A\sifreKontrol\obj\Debug\sifreKontrol.pdb
